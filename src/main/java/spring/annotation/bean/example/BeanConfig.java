@@ -15,7 +15,10 @@ public class BeanConfig {
     // public JavaClass javaClass(){
     //     return new JavaClass("new java class");
     // }
-    @Bean CommandLineRunner nonPrimitiveClassExample(){
+
+    // The function return type is CommandLineRunner, it implements the interface.
+    @Bean 
+    CommandLineRunner nonPrimitiveClassExample(){
         return args -> {
             log.info("Loggin new Instance Creation: " + new JavaClass("JavaClass") + String.valueOf(counter+1));
         };

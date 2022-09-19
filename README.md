@@ -24,7 +24,7 @@ The source code is just very basic examples to show how to use @Bean with e.g Ap
 
 # P.S.
 
-DI for fields is generally not reccommended for object immutability [etc](https://stackoverflow.com/questions/39890849/what-exactly-is-field-injection-and-how-to-avoid-it#:~:text=The%20reasons%20why%20field%20injection,in%20unit%20tests)%20without%20reflection.) 
+DI for fields is generally not reccommended for object immutability [etc](https://stackoverflow.com/questions/39890849/what-exactly-is-field-injection-and-how-to-avoid-it#:~:text=The%20reasons%20why%20field%20injection,in%20unit%20tests\)%20without%20reflection.) 
 
 static final place holder cannot be defined as @Bean.
 
