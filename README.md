@@ -15,12 +15,12 @@ public class AppConfig {
 </beans>
 ```
 
-# There are many ways to achieve different dependency injection in Spring framework. e.g.
+# Dependency injection in Spring framework. e.g.
 * @Autowired can be used for tag fields, constructors and setters.
 * @Bean can be used for tag methods for later Spring IOC containers.
 
 # Result
-The source code is just very basic examples to show how to use @Bean with e.g ApplicationContext or SpringApplication, Logger LoggerFactory and CommandLineRunner.
+The source code is just basic examples to show how to use @Bean with e.g ApplicationContext or SpringApplication, Logger LoggerFactory and CommandLineRunner.
 
 # P.S.
 
